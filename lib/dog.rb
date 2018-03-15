@@ -8,8 +8,8 @@ attr_accessor :name
     @@all << @name
   end
 
-  def self.clear_all(arr)
-    arr.clear
+  def self.clear_all
+    self.clear
   end
 
 
