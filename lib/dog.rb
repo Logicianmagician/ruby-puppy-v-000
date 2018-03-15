@@ -7,5 +7,5 @@ attr_accessor :name
     @name = name
     @@all << @name
   end
-    
+
 end
