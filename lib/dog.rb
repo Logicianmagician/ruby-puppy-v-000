@@ -16,4 +16,8 @@ attr_accessor :name
     @@all.each { |e| puts e.to_s}
   end
 
+  def self.new
+    @@all << self
+  end
+
 end
