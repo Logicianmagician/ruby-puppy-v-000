@@ -5,6 +5,7 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
+    @@all << self
   end
 
   def self.clear_all
@@ -14,10 +15,5 @@ attr_accessor :name
   def self.all
     @@all.each { |e| puts e.to_s}
   end
-
-  def self.new(name)
-    @@all << name
-  end
-
 
 end
