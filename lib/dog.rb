@@ -17,7 +17,7 @@ attr_accessor :name
   end
 
   def self.new
-    
+
   end
 
 end
