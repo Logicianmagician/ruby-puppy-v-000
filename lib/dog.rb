@@ -13,7 +13,7 @@ attr_accessor :name
   end
 
   def self.all
-  puts  @@all.map { |e| puts e.to_s}
+  puts  @@all.map { |e| puts e.name}
   end
 
 end
