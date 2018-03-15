@@ -9,7 +9,7 @@ attr_accessor :name
   end
 
   def self.clear_all
-    self.clear
+    @@all.clear
   end
 
 
